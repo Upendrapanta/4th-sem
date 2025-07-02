@@ -31,13 +31,3 @@ INSERT INTO studentsss  VALUES
 (18, 'Upendra', 'Bohora', 17, 'Male', 11, 'Tansen', 86),
 (19, 'Krish', 'Poudel', 18, 'Male', 12, 'Banepa', 92);
 
-ALTER TABLE studentsss
-ADD email VARCHAR(50);
-
-ALTER TABLE studentsss
-DROP COLUMN email;
-
-ALTER TABLE studentsss
-MODIFY marks FLOAT(4);
-
-SELECT *FROM studentsss WHERE grade ='12' AND marks > 90
